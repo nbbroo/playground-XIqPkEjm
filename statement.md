@@ -42,7 +42,8 @@ while @myStrB.length != 0
 @compter = 0
 end 
 
- puts @anser.chop'
+ puts @anser.chop
+ 
 ```
 
 # Merci codingame.com
