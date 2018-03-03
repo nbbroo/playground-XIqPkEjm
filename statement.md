@@ -1,7 +1,7 @@
 # Bonjour
   
-  Chuck Norris a un clavier à deux touches le 0 et la barre d'espacement.
-  Cela lui suffit emplement pour envoyer un message.
+  Chuck Norris a un clavier avec seulement deux touches.
+  Le 0 et la barre d'espacement lui suffisent pour envoyer un message.
   
 ```ruby runnable
 
