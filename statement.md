@@ -2,10 +2,10 @@
   
   Chuck Norris a un clavier avec seulement deux touches.
   Le 0 et la barre d'espacement lui suffisent pour envoyer un message.
-  Cette version est codée par moi : 
+  
   
 ```ruby runnable
-
+# Cette version est codée par moi : 
 @myStr = "Entrez votre phrase à coder en unaire ici "
 
 @myStr = @myStr.reverse
