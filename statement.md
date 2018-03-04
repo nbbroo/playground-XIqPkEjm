@@ -2,6 +2,7 @@
   
   Chuck Norris a un clavier avec seulement deux touches.
   Le 0 et la barre d'espacement lui suffisent pour envoyer un message.
+  Cette version est codée par moi : 
   
 ```ruby runnable
 
@@ -45,6 +46,12 @@ end
  puts @anser.chop
  
 ```
+```ruby runnable
+@myStr = "Entrez votre phrase à coder en unaire ici "
+puts @myStr.chomp.bytes.map{|b|'%07b'%b}.join.chars.chunk{|e|e}.flat_map{|k,v|[['00','0'][k.to_i],'0'*v.size]}*' '
 
+```
 # Merci codingame.com
-
+  et voici la version codé par Chuck Norris :
+  
+  
