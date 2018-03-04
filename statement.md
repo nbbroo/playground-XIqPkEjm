@@ -46,12 +46,9 @@ end
  puts @anser.chop
  
 ```
-
-# et voici la version codé par Chuck Norris :
+# et voici la version codée par Chuck Norris :
   
 ```ruby runnable
-@myStr = "Entrez votre phrase à coder en unaire ici "
-puts @myStr.chomp.bytes.map{|b|'%07b'%b}.join.chars.chunk{|e|e}.flat_map{|k,v|[['00','0'][k.to_i],'0'*v.size]}*' '
-
+puts "Entrez votre phrase à coder en unaire ici ".chomp.bytes.map{|b|'%07b'%b}.join.chars.chunk{|e|e}.flat_map{|k,v|[['00','0'][k.to_i],'0'*v.size]}*' '
 ```  
 # Merci codingame.com
