@@ -1,9 +1,11 @@
-# Bonjour
-  
+# 
+  --------------------------------------------------------------------
   Chuck Norris a un clavier avec seulement deux touches.
   Le 0 et la barre d'espacement lui suffisent pour envoyer un message.
-  
-  
+  --------------------------------------------------------------------
+  Chuck Norris has a keyboard with only two keys. 
+  The 0 and the space bar are enough for him to send a message.
+  --------------------------------------------------------------------
 ```ruby runnable
 # Cette version est codée par moi : 
 @myStr = "Entrez votre phrase à coder en unaire ici "
